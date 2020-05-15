@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+
+  <body class="page-body">
+    {% if jekyll.environment != "production" %}
+      <div class="message-box warning-message">
+        <span>Warning:</span>
+        This version was built with the <code>{{ jekyll.environment }}</code> environment. Some features might be missing.
+      </div>
+    {% endif %}
+
+    {{ content }}
+  </body>
+</html>

@@ -1,0 +1,42 @@
+title: My Projects
+author: six-two
+description: >-
+  My projects. May not be stable or maintained since I do them for fun.
+baseurl: ""
+url: ""
+
+baseurl_source: "https://github.com/six-two/"
+baseurl_hosted: "https://projects.six-two.dev/"
+img_path: /assets/img/
+css_path: /assets/css/
+
+theme: minima
+feed:
+  path: /please_ignore_this_file.xml
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-minifier
+
+
+# Minify html, css, js, ...
+jekyll-minifier:
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+  remove_intertag_spaces: true
+  compress_css: true
+  uglifier_args:
+    harmony: true
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .gitignore
+  - .bundle
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
