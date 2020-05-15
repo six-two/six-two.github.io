@@ -1,3 +1,13 @@
-# six-two.github.io
+# My projects - website
+A simple static website with an overview of my public projects.
+Made with Jekyll, Markdown, HTML and CSS.
 
-TODO: this project is under construction
+Watch it live at [https://projects.six-two.dev](https://projects.six-two.dev)
+
+## License
+The following images are copyrighted by me. Please do not use them:
+ - /favicon.ico
+ - /assets/img/favicon_64.png
+ - /assets/img/sixtwo_icon_64.png
+
+You have my permission to do whatever you want with the rest of the files.

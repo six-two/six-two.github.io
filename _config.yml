@@ -5,7 +5,8 @@ description: >-
 baseurl: ""
 url: ""
 
-baseurl_source: "https://github.com/six-two/"
+baseurl_my_github: "https://github.com/six-two/"
+baseurl_my_gitlab: "https://gitlab.com/six-two/"
 baseurl_hosted: "https://projects.six-two.dev/"
 img_path: /assets/img/
 css_path: /assets/css/
