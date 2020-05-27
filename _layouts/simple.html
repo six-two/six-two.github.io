@@ -6,7 +6,13 @@ layout: minimal
 
 <div class="page-content">
   <div class="wrapper">
-    {{ content }}
+    {% if page.content_class %}
+      <div class="{{ page.content_class }}">
+        {{ content }}
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </div>
 
