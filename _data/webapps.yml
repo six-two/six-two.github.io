@@ -1,0 +1,15 @@
+- name: Payload Builder
+  status: Finished
+  app-url: "<projects>react_payload_builder"
+  source-url: "<github>react_payload_builder"
+  description: >-
+    A simple web application that can be used to create attack strings for buffer overflow / format string attacks.
+    Since it is my first JavaScript/TypeScript/React project the code may not be pretty ;D
+
+- name: Did someone touch this?
+  status: Prototype, not mobile friendly
+  app-url: "<projects>react_did_someone_touch_this"
+  source-url: "<github>react_did_someone_touch_this"
+  description: >-
+    A small web app to detect tampering with your belongings.
+    It compares a picture from before you left to an picture taken after you left and highlights changed areas. It also helps ensure that both pictures are taken from the same position, angle and distance.

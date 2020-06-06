@@ -17,20 +17,21 @@ Static websites built with Jekyll and hosted by Github / Gitlab Pages:
 - [My website](https://six-two.dev) and its [source code]({{ site.baseurl_my_gitlab }}six-two.gitlab.io)
 - [My projects website (this website)]({{ site.baseurl_hosted }}) and its [source code]({{ site.baseurl_my_github }}six-two.github.io)
 
-## Payload Builder
-{: #react_payload_builder}
+## Web Apps
+{: #web-apps}
 
-A simple web application that can be used to create attack strings for buffer overflow / format string attacks.
-Since it is my first JavaScript/TypeScript/React project the code may not be pretty ;D
-
-Both [source code]({{ site.baseurl_my_github }}react_payload_builder) and
-[hosted version]({{ site.baseurl_hosted }}react_payload_builder) are available.
-
-## Did someone touch this?
-{: #react_payload_builder}
-
-A small web app to detect tampering with your belongings.
-It compares a picture from before you left to an picture taken after you left and highlights changed areas. It also helps ensure that both pictures are taken from the same position, angle and distance.
-
-Both [source code]({{ site.baseurl_my_github }}react_did_someone_touch_this) and
-[hosted version]({{ site.baseurl_hosted }}react_did_someone_touch_this) are available.
+{% for webapp in site.data.webapps %}
+  <div class="web-app-listing">
+    <h3>{{ webapp.name | default: "Unnamed project" }}</h3>
+    <p>{{ webapp.description | default: "No description available yet" }}</p>
+    <p class="status">Current status: {{ webapp.status | default: "Unknown" }}</p>
+    <div class="buttons">
+      {% if webapp.app-url %}
+      <button onclick="window.open('{{ webapp.app-url | replace: '<projects>', site.baseurl_hosted }}', '_blank')">Open app</button>
+      {% endif %}
+      {% if webapp.source-url %}
+      <button onclick="window.open('{{ webapp.source-url | replace: '<github>', site.baseurl_my_github }}', '_blank')">View source code</button>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
