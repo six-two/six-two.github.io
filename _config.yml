@@ -19,6 +19,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
+sass:
+  style: compressed
+
 
 # Minify html, css, js, ...
 jekyll-minifier:

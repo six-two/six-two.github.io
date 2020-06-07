@@ -1,0 +1,24 @@
+.sectioned h1,
+.sectioned h2,
+.sectioned h3,
+.sectioned h4,
+.sectioned h5,
+.sectioned h6,
+.section-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 1em;
+
+  &:before, &:after {
+    flex: 1;
+    content: '';
+    border-bottom: 2px solid $color-header-line;
+  }
+  &:before {
+    margin-right: 0.5em;
+  }
+  &:after {
+    margin-left: 0.5em;
+  }
+}
