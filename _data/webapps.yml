@@ -13,3 +13,10 @@
   description: >-
     A small web app to detect tampering with your belongings.
     It compares a picture from before you left to an picture taken after you left and highlights changed areas. It also helps ensure that both pictures are taken from the same position, angle and distance.
+
+- name: Deceptive redirect
+  status: Prototype
+  app-url: "<projects>react_redirect"
+  source-url: "<github>react_redirect"
+  description: >-
+    A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
