@@ -20,3 +20,10 @@
   source-url: "<github>react_redirect"
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
+
+- name: Fake OS login
+  status: Prototype, only Kali Linux screen
+  app-url: "<projects>html_fake_login"
+  source-url: "<github>html_fake_login"
+  description: >-
+    A small web app that tries to look like a OS login screen
