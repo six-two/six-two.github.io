@@ -21,8 +21,16 @@
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
 
+- name: Fake Kali Linux login
+  status: Prototype
+  app-url: "<projects>react_fake_kali_login"
+  source-url: "<github>react_fake_kali_login"
+  description: >-
+    A small web app that tries to look like the Kali Linux login screen. React rewrite of "Fake OS login".
+
+
 - name: Fake OS login
-  status: Prototype, only Kali Linux screen
+  status: Prototype. Discontinued in favour of
   app-url: "<projects>html_fake_login"
   source-url: "<github>html_fake_login"
   description: >-
