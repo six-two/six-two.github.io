@@ -6,6 +6,13 @@
     A simple web application that can be used to create attack strings for buffer overflow / format string attacks.
     Since it is my first JavaScript/TypeScript/React project the code may not be pretty ;D
 
+- name: Fake Kali Linux login
+  status: Still missing some features
+  app-url: "<projects>react_fake_kali_login"
+  source-url: "<github>react_fake_kali_login"
+  description: >-
+    A small web app that tries to look like the Kali Linux login screen. It can also simultate booting and shutdowns.
+
 - name: Did someone touch this?
   status: Prototype, not mobile friendly
   app-url: "<projects>react_did_someone_touch_this"
@@ -20,18 +27,3 @@
   source-url: "<github>react_redirect"
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
-
-- name: Fake Kali Linux login
-  status: Prototype
-  app-url: "<projects>react_fake_kali_login"
-  source-url: "<github>react_fake_kali_login"
-  description: >-
-    A small web app that tries to look like the Kali Linux login screen. React rewrite of "Fake OS login".
-
-
-- name: Fake OS login
-  status: Prototype. Discontinued in favour of
-  app-url: "<projects>html_fake_login"
-  source-url: "<github>html_fake_login"
-  description: >-
-    A small web app that tries to look like a OS login screen
