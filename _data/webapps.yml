@@ -7,7 +7,7 @@
     Since it is my first JavaScript/TypeScript/React project the code may not be pretty ;D
 
 - name: Fake Kali Linux login
-  status: Still missing some features
+  status: Almost finished
   app-url: "<projects>react_fake_kali_login"
   source-url: "<github>react_fake_kali_login"
   description: >-
