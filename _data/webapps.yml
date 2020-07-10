@@ -14,7 +14,7 @@
     A small web app that tries to look like the Kali Linux login screen. It can also simultate booting and shutdowns.
 
 - name: Did someone touch this?
-  status: Prototype, not mobile friendly
+  status: Nearing completion
   app-url: "<projects>react_did_someone_touch_this"
   source-url: "<github>react_did_someone_touch_this"
   description: >-
