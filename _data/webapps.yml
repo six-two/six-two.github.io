@@ -27,3 +27,11 @@
   source-url: "<github>react_redirect"
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
+
+- name: WASD Language trainer
+  status: Idea
+  app-url: "<projects>react_wasd_language"
+  source-url: "<github>react_wasd_language"
+  description: >-
+    A simple and free language trainer, for people who are to lazy to type :D
+
