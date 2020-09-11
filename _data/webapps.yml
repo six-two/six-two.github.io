@@ -28,6 +28,13 @@
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
 
+- name: Link shortener (15c.me)
+  status: Working, but has room for improvement
+  app-url: "https://15c.me"
+  source-url: "<github>15c.me"
+  description: >-
+    A simple redirector / link shortener for my personal use.
+
 - name: WASD Language trainer
   status: Idea
   app-url: "<projects>react_wasd_language"
