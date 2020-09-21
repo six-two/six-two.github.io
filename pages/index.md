@@ -18,6 +18,7 @@ Static websites built with Jekyll and hosted by Github / Gitlab Pages:
 
 - [My website](https://six-two.dev) and its [source code]({{ site.baseurl_my_gitlab }}six-two.gitlab.io)
 - [My projects website (this website)]({{ site.baseurl_hosted }}) and its [source code]({{ site.baseurl_my_github }}six-two.github.io)
+- [My photos](https://projects.six-two.dev/photo_links/) and its [source code]({{ site.baseurl_my_github }}photo_links)
 
 ## Web Apps
 {: #web-apps}
