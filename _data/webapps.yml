@@ -20,6 +20,14 @@
   description: >-
     A small web app that tries to look like the Kali Linux login screen. It can also simultate booting and shutdowns.
 
+- name: Fake Windows 10 login
+  status: Work in progress
+  app-url: "<projects>react_fake_win10_login"
+  source-url: "<github>react_fake_win10_login"
+  description: >-
+    A small web app that tries to look like the Windows 10 login screen.
+
+
 - name: Did someone touch this?
   status: Nearing completion
   app-url: "<projects>react_did_someone_touch_this"
