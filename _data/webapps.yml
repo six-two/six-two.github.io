@@ -1,6 +1,6 @@
 - name: Payload Builder
   status: Finished
-  app-url: "<projects>react_payload_builder"
+  app-url: "https://payload-builder.six-two.dev"
   source-url: "<github>react_payload_builder"
   description: >-
     A simple web application that can be used to create attack strings for buffer overflow / format string attacks.
@@ -15,14 +15,14 @@
 
 - name: Fake Kali Linux login
   status: Almost finished
-  app-url: "<projects>react_fake_kali_login"
+  app-url: "https://kali-login.six-two.dev"
   source-url: "<github>react_fake_kali_login"
   description: >-
     A small web app that tries to look like the Kali Linux login screen. It can also simultate booting and shutdowns.
 
 - name: Fake Windows 10 login
   status: Work in progress
-  app-url: "<projects>react_fake_win10_login"
+  app-url: "https://win10-login.six-two.dev"
   source-url: "<github>react_fake_win10_login"
   description: >-
     A small web app that tries to look like the Windows 10 login screen.
@@ -30,7 +30,7 @@
 
 - name: Did someone touch this?
   status: Nearing completion
-  app-url: "<projects>react_did_someone_touch_this"
+  app-url: "https://photo-compare.six-two.dev"
   source-url: "<github>react_did_someone_touch_this"
   description: >-
     A small web app to detect tampering with your belongings.
