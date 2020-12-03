@@ -38,7 +38,7 @@
 
 - name: Deceptive redirect
   status: Prototype
-  app-url: "<projects>react_redirect"
+  app-url: "https://redirect.six-two.dev"
   source-url: "<github>react_redirect"
   description: >-
     A small web app to create innocent looking links that will redirect visitors to arbitrary locations.
