@@ -21,7 +21,7 @@
     A small web app that tries to look like the Kali Linux login screen. It can also simultate booting and shutdowns.
 
 - name: Fake Windows 10 login
-  status: Work in progress
+  status: Mostly finished
   app-url: "https://win10-login.six-two.dev"
   source-url: "<github>react_fake_win10_login"
   description: >-
@@ -29,7 +29,7 @@
 
 
 - name: Did someone touch this?
-  status: Nearing completion
+  status: Mostly finished
   app-url: "https://photo-compare.six-two.dev"
   source-url: "<github>react_did_someone_touch_this"
   description: >-
