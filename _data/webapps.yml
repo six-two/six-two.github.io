@@ -1,3 +1,17 @@
+- name: My CV
+  status: Finished
+  app-url: "https://cv.six-two.dev"
+  source-url: "<github>react_cv"
+  description: >-
+    A multilingual (english and german) version of my CV. It also works on mobile!
+
+- name: Contact form
+  status: Finished
+  app-url: "https://contact.six-two.dev"
+  source-url: "<github>react_contact_form"
+  description: >-
+    A multilingual contact form that works with any standard HTML form backend.
+
 - name: Payload Builder
   status: Finished
   app-url: "https://payload-builder.six-two.dev"
@@ -14,7 +28,7 @@
     A simple URL redirector / link shortener for my personal use.
 
 - name: Fake Kali Linux login
-  status: Almost finished
+  status: Finished
   app-url: "https://kali-login.six-two.dev"
   source-url: "<github>react_fake_kali_login"
   description: >-
@@ -29,7 +43,7 @@
 
 
 - name: Did someone touch this?
-  status: Mostly finished
+  status: Finished
   app-url: "https://photo-compare.six-two.dev"
   source-url: "<github>react_did_someone_touch_this"
   description: >-

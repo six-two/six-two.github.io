@@ -2,7 +2,7 @@
 layout: simple
 title: My projects
 permalink: /
-footer: "Last updated in September 2020"
+footer: "Last updated in January 2021"
 custom_menu:
   - { menu_title: "Contact me", url: "https://six-two.dev/#contact" }
   - { menu_title: "Donate", url: "https://six-two.dev/#send-money" }
@@ -11,10 +11,12 @@ custom_css:
  - index
 ---
 
+<!-- TODO rewrite this as a multilingual react app -->
+
 ## Personal websites
 {: #websites}
 
-Static websites built with Jekyll and hosted by Github / Gitlab Pages:
+Static websites built with Jekyll:
 
 - [My website](https://six-two.dev) and its [source code]({{ site.baseurl_my_gitlab }}six-two.gitlab.io)
 - [My projects website (this website)]({{ site.baseurl_hosted }}) and its [source code]({{ site.baseurl_my_github }}six-two.github.io)
@@ -38,3 +40,11 @@ Static websites built with Jekyll and hosted by Github / Gitlab Pages:
     </div>
   </div>
 {% endfor %}
+
+## Misc
+
+- [React template]({{ site.baseurl_my_github }}react_template): The template that is used for most of my web apps. It features support for small display, multilingual text and minification.
+
+## Thanks
+
+Thank you for visiting this website, [Vercel](https://vercel.com/) for hosting it and [Github](https://github.com/) for hosting its source code.
