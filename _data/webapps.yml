@@ -50,6 +50,20 @@
     A small web app to detect tampering with your belongings.
     It compares a picture from before you left to an picture taken after you left and highlights changed areas. It also helps ensure that both pictures are taken from the same position, angle and distance.
 
+- name: Split secret
+  status: Finished
+  app-url: "https://split.secrets.six-two.dev"
+  source-url: "<github>react_split_secret"
+  description: >-
+    Split a secret into shares, that only reveal the secret if a certain number of shares is known.
+
+- name: Reveal secret
+  status: Finished
+  app-url: "https://reveal.secrets.six-two.dev"
+  source-url: "<github>react_reveal_secrets"
+  description: >-
+    Companion app for "Split secret", that reveals the secret again
+
 - name: Deceptive redirect
   status: Prototype
   app-url: "https://redirect.six-two.dev"
